@@ -1,0 +1,10 @@
+/*
+上底长为width的值，下底长为width+border-left+border-right之和，高为border-bottom
+*/
+#trapezoid {
+    border-bottom: 100px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 100px;
+}

@@ -1,0 +1,12 @@
+/*
+上三角CSS代码:
+设置border-bottom宽度实线颜色，左右border左右宽度为一半，实线透明。
+下三角、左三角、右三角可举一反三实现。
+*/
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}

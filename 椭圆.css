@@ -1,0 +1,9 @@
+/*border-radius:水平半径/垂直半径*/
+#oval {
+    width: 200px;
+    height: 100px;
+    background: red;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+}

@@ -1,0 +1,11 @@
+/*
+左上三角CSS代码如下：
+border-top设置宽度实线颜色，border-right等宽实线透明。
+右上三角、左下三角、右下三角可举一反三实现。
+*/
+#triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 100px solid red; 
+    border-right: 100px solid transparent;          
+}

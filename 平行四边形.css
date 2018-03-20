@@ -1,0 +1,12 @@
+/*
+transform: skew，倾斜角度即为四边形锐角的余角
+*/
+#parallelogram {
+    width: 150px;
+    height: 100px;
+    margin-left:20px;
+    -webkit-transform: skew(20deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);
+    background: red;
+}
